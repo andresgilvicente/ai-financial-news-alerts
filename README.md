@@ -2,6 +2,8 @@
 
 # Financial News Alert System
 
+**Development period:** January–May 2026
+
 End-to-end NLP + DL system for financial news alert generation.
 
 Given a news text (and optionally a chart image), the project extracts named entities, predicts sentiment, and produces a final alert using either rule-based logic or an LLM.
