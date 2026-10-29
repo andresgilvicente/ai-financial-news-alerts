@@ -37,6 +37,8 @@ If you just cloned the repo and want to test quickly, start with `Quickstart_REA
 |- data/
 |  |- dataset.py                 # dataset builder (FiNER-ORD + FinBERT labels) and DataLoaders
 |                                # (GloVe and the generated .jsonl are not tracked; see Reproducibility_README.md)
+|- docs/
+|  |- Final_Paper.pdf            # project report
 |- experiments/
 |  |- news.py                    # custom text / image path to edit
 |  |- run_news.py                # runs the pipeline on news.py
@@ -57,7 +59,6 @@ If you just cloned the repo and want to test quickly, start with `Quickstart_REA
 |- evaluate.py                   # NER / SA / joint model evaluation
 |- pipeline.py                   # end-to-end inference entrypoint
 |- run_all.sh                    # full reproduction script
-|- Final_Paper.pdf               # project report
 |- Quickstart_README.md          # quick inference guide
 |- Reproducibility_README.md     # full reproducibility guide
 |- requirements.txt
